@@ -1,0 +1,54 @@
+.container {
+    padding: 2px 16px;
+    border: 2px solid;
+    width: 40%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+}
+
+.app {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px;
+    text-align: center;
+    background-color: #85ffbd;
+    background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+    color: rgba(0, 0, 0, 0.348);
+    margin: 30px;
+}
+
+img {
+    border-radius: 200px;
+    box-shadow: 3px 3px 5px;
+}
+  .email {
+    display: block;
+    color: rgba(0, 0, 0, 0.348);
+    font-weight: 700;
+  }
+  
+  i{
+      position:absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 2rem;
+  }
+  
+  .male{
+      color:cornflowerblue;
+  }
+  
+  .female{
+      color:pink
+  }
